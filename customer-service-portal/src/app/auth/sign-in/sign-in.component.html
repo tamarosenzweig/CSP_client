@@ -1,0 +1,43 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<div class="col-md-4 main-login">
+  <div>
+    <div class="center">
+
+      <h1>
+        My <br>Seldat <br>Portal
+      </h1>
+
+      <form novalidate [formGroup]="signInForm" class="form-horizontal col col-xs-10">
+
+        <div class="form-group">
+          <input type="email" class="inputMaterial" formControlName="userName" placeholder="E-mail" (focus)="onFocus('userName')" />
+          <span class="highlight"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="form-group">
+          <input type="password" class="inputMaterial" formControlName="password" placeholder="Password" (focus)="onFocus('password')" />
+          <span class="highlight"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="link-wrapper">
+          <a>Forgot Password?</a>
+        </div>
+
+        <div class="form-group ">
+          <button type="submit" class="submit btn btn-md btn-block submit" [disabled]="!signInForm.valid" (click)="logIn()">continue</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <h3 class="footer">&copy; Seldat.inc {{currentYear}}</h3>
+  </footer>
+</div>
+
+<div class="col-md-8 row text-center">
+  <img src="../../../assets/images/loginCSP.png">
+</div>

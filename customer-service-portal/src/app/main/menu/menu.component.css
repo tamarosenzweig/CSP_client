@@ -1,0 +1,20 @@
+.menu {
+    background-color: #465DEF;
+    color:white;
+    opacity: 0.9;
+    height: 6vh;
+}
+.navbar-brand{
+    font-family: SF Pro Display, Medium;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.link-home{
+ margin-left: 6vw;
+color: white; 
+}
+select{
+    color: black;
+    margin-left: 5vw;
+}

@@ -1,0 +1,45 @@
+{
+    "MENU": {
+        "ACCOUNT-SELDAT": "My Seldat Account"
+    },
+    "PRODUCTS": {
+        "BUTTON_SUBMIT": "Submit a ticket",
+        "SOLOCATE-TITLE": "SOLOCATE",
+        "SOLOCATE-SUB-TITLE": "Delivery management system for all routes",
+        "SOLOCATE-BODY-TITLE": "Support: Standard",
+        "SOLOCATE-PRICE": "$45/m",
+        "SOLOCATE-ONLINE": "9 Users Online",
+        "SOLOCATE-LINK": "View Tickets",
+        "SOLOCATE-FOOTER": "2 New updates",
+        "VENDOO-TITLE": "VENDOO",
+        "VENDOO-SUB-TITLE": "Full B2B / B2C solution system",
+        "VENDOO-BODY-TITLE": "Support: Gold",
+        "VENDOO-PRICE": "$29/m",
+        "VENDOO-ONLINE": "16 Users Online",
+        "VENDOO-LINK": "View Tickets",
+        "VENDOO-FOOTER": "No updates",
+        "WMS 360-TITLE": "WMS 360",
+        "WMS 360-SUB-TITLE": "Warehouse management system solution",
+        "WMS 360-BODY-TITLE": "Support: Gold",
+        "WMS 360-PRICE": "$70/m",
+        "WMS 360-ONLINE": "3 New updates",
+        "WMS 360-LINK": "View Tickets",
+        "WMS 360-FOOTER": "3 New updates",
+        "DE-SHIPPER-TITLE": "DE-SHIPPER",
+        "DE-SHIPPER-SUB-TITLE": "Truck Management system solution",
+        "DE-SHIPPER-BODY-TITLE": "Support: Platinum",
+        "DE-SHIPPER-PRICE": "$70/m",
+        "DE-SHIPPER-ONLINE": "30 New updates",
+        "DE-SHIPPER-LINK": "View Tickets",
+        "DE-SHIPPER-FOOTER": "6 New updates",
+        "TIME-LINE": "License Timeline:"
+    },
+
+    "SIGN-IN": {
+        "SIGN-IN-TITLE": "MY SELDAT PORTAL",
+        "SIGN-IN-INPUT-EMAIL": "E-mail",
+        "SIGN-IN-INPUT-PASSWORD": "Password",
+        "FORGOT-PASSWORD-LINK": "Forgot Password?",
+        "SIGN-IN-SUBMIT": "Continue"
+    }
+}
