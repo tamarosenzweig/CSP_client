@@ -18,13 +18,14 @@ import { BrowserModule } from '@angular/platform-browser';
   imports: [
     AuthRoutingModule,
     SharedModule,
+
     ReactiveFormsModule,
     RouterModule,
     CommonModule,
     ReactiveFormsModule,
     HttpClientModule,
     RouterModule,
-    BrowserModule,
+    // BrowserModule,
     FormsModule,
   ],
   exports: [AuthComponent],

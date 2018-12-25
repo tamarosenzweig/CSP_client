@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<div class="container">
+ 
+  <div class="row">
+    <div class="col-md-3 top">
+      <div class="search">
+          <i class="fal fa-search"></i>
+        <input text="when:" placeholder="today">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <h4><b>Have my product shipped yet?</b></h4>
+    </div>
+
+    <div class="col-md-3 ticket-title">
+        <i class="fas fa-undo-alt"></i>
+        Archive
+        <button class="btn btn-danger">close</button>
+      </div>
+  </div>
+
+
+  <div class="col-md-3 ticket-list">
+    <div class="col-md-3 short-list-title">
+      Recent
+      <i class="fal fa-angle-down"></i>
+    </div>
+    <app-short-ticket *ngFor="let ticket of tickets" [ticket]="ticket"></app-short-ticket>
+  </div>
+
+  <div class="col-md-9 ticket-thread">
+   <app-tmp-ticket></app-tmp-ticket>
+  </div>
+</div>

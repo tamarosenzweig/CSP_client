@@ -39,6 +39,6 @@ export class SignInComponent implements OnInit {
   }
 
   logIn(): void {
-    this.router.navigate(['main']);
+    this.router.navigate(['product']);
   }
 }

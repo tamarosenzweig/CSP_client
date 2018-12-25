@@ -5,7 +5,8 @@ import { Title } from '@angular/platform-browser';
 const appRoutes: Routes = [
   { path: '', redirectTo: '/auth', pathMatch: 'full' },
   { path: 'auth', loadChildren: './auth/auth.module#AuthModule' },
-  { path: 'main', loadChildren: './main/main.module#MainModule' }
+  { path: 'product', loadChildren: './product/product.module#ProductModule' },
+  { path: 'ticket', loadChildren: './ticket/ticket.module#TicketModule' }
 
 ];
 
